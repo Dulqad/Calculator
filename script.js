@@ -67,6 +67,9 @@ function checkCalculation(){
   else if(sign === '%'){
     result = parseFloat(result) % parseFloat(outputTwo)
   }
+  else if(sign === '*'){
+    result = parseFloat(result) * parseFloat(outputTwo)
+  }
 }
 
 //clear the display
